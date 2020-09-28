@@ -1,0 +1,82 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+
+<EditText
+    android:id="@+id/id"
+    android:layout_width="250dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="85dp"
+    android:layout_marginTop="360dp"
+    android:paddingLeft="5dp"
+    android:background="@drawable/login"
+    android:drawableLeft="@drawable/user"
+    android:hint="   아이디를 입력하세요"
+    android:textSize="15dp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/passwd"
+    android:layout_width="250dp"
+    android:layout_height="40dp"
+    android:paddingLeft="10dp"
+    android:drawableLeft="@drawable/passwd"
+    android:layout_marginLeft="85dp"
+    android:textSize="15dp"
+    android:textColor="@color/text"
+    android:layout_marginTop="410dp"
+    android:background="@drawable/login"
+    android:textStyle="bold"
+    android:hint="   비밀번호를 입력하세요" />
+
+<Button
+    android:id="@+id/submit"
+    android:layout_width="250dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="85dp"
+    android:layout_marginTop="460dp"
+    android:text="로그인"
+    android:background="@drawable/loginbtn"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:textSize="18dp"
+    />
+
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="380dp"
+    android:layout_height="500dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="40dp"
+    android:src="@drawable/logo" />
+
+<View
+    android:layout_marginLeft="85dp"
+    android:layout_marginTop="515dp"
+    android:background="#1A000000"
+    android:layout_width="250dp"
+    android:layout_height="2px" />
+
+<TextView
+    android:layout_width="140dp"
+    android:layout_height="16dp"
+    android:layout_marginLeft="132dp"
+    android:layout_marginTop="520dp"
+    android:textColor="#4D000000"
+    android:text="회원가입 하시겠습니까?"
+    android:textStyle="bold"/>
+
+<TextView
+    android:layout_width="140dp"
+    android:layout_height="16dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="132dp"
+    android:layout_marginBottom="18dp"
+    android:text="비밀번호를 잊으셨나요?"
+    android:textColor="#4D000000"
+    android:textStyle="bold" />
+
+
+</RelativeLayout>

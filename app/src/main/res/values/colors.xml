@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login">#4DC4C4C4</color>
+    <color name="submit">#00C6DB</color>
+    <color name="text">#33000000</color>
+</resources>
